@@ -1,0 +1,368 @@
+*{
+    margin: 0%;
+    padding:0%
+}
+html,body{
+   height: 100%;
+   width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    
+}
+#header{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    
+    
+
+}
+#fakeheader{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+#strip{
+    height: 6%;
+    width: 100%;
+    background-color: rgb(17, 47, 122);
+    text-decoration: solid;
+}
+#strip p{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: large;
+    padding: 10px;
+}
+#strip u{
+    margin-left: 10px;
+    font-weight: lighter;
+}
+.icons{
+   margin-left: 20px;
+   color: rgb(0, 0, 180);
+   
+  
+
+}
+.icons:hover{
+    color: rgb(26, 185, 221);
+}
+
+
+#page1{
+    height: 100%;
+    width: 100%;
+   /* background-color: rgb(23, 99, 220);*/
+}
+
+#contact{
+    
+   margin-left: 50px;
+   color: rgb(0, 0, 180);
+   text-align: center;
+   font-weight: lighter;
+
+}
+.icon{
+    margin-left: 50px;
+    color: rgb(0, 0, 180);
+    
+    padding: 10px;
+    border-radius:50% ;
+
+}
+.icon:hover{
+    background-color: rgb(102, 181, 237);
+
+}
+#login{
+    margin-left: 50px;
+    color: rgb(0, 0, 180);
+   
+    padding: 10px;
+     border-radius: 10px;
+   
+    size: 50%;
+}
+#login:hover{
+    background-color: rgb(102, 181, 237);
+}
+#try{
+    margin-left: 50px;
+    color: rgb(232, 232, 245);
+    background-color: rgb(3, 121, 90);
+    padding: 10px;
+    border-radius: 10px;
+}
+#try:hover{
+    background-color: rgb(39, 44, 39);
+}
+
+#content{
+    height: 68%;
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    justify-content: center;
+   align-items: left;
+   text-align: left
+    
+    
+
+}
+#written{
+    height: 100%;
+    width: 50%;
+   border-radius: 5%;
+  background-color: rgb(246, 255, 255);
+  margin-left: 100px;
+  
+ 
+ 
+}
+#written b{
+    font-size:40px;
+    color: rgb(13, 13, 100);
+
+}
+#written p{
+    font-size: x-large;
+    margin-top: 50px;
+    font-weight: lighter;
+    text-align: left;
+
+
+}
+#box{
+    height:100%;
+    width: 50%;
+    width: 40;background-color: rgb(255, 166, 0);
+    display: flex;
+}
+#box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#box image{
+   height: 60%;
+    width:50%;
+    background-color: blue;
+  
+}
+#image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.contenticon{
+    display: flex;
+    justify-content: left;
+    margin: 30px;
+   
+    
+}
+#startfreetrial{
+   text-align: center;
+    font-weight: 300;
+    font-size: larger;
+   padding : 10px;
+    background-color: rgb(48, 111, 199);
+  color:white;
+  border-radius: 5px;
+  margin-left:10px ;
+}
+#startfreetrial:hover{
+    background-color: darkblue;
+}
+#watchdemo{
+    font-size: larger;
+    padding : 15px;
+    border-radius: 5px;
+    margin-left: 40px;
+    border-style: solid;
+    border-color: rgb(36, 160, 205);
+    color: rgb(38, 144, 205);
+
+
+}
+#watchdemo:hover{
+    background-color: rgb(142, 215, 247);
+}
+#headline{
+    height: 16%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 180);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size:xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#page2{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   align-items: center; 
+background-color: rgb(164, 226, 239);
+}
+
+#class1{
+    height: 93%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   
+    
+}
+/*#page2img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}*/
+
+
+#box1{
+    height: 60%;
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 35px;
+    border-radius: 20px;
+    border-style:groove;
+    overflow: hidden;
+   
+}
+#box1 b{
+    margin-left: 70px;
+    font-size: x-large;
+   
+}
+#box1 p{
+    margin: 40px;
+   font-size: large;
+}
+#box1 u{
+    margin-left: 40px;
+}
+
+#box1 img{
+    height: 40%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#box2{
+    height: 60%;
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 35px;
+    border-radius: 20px;
+    border-style:groove;
+    overflow: hidden;
+    
+
+}
+#box2 b{
+    margin-left: 70px;
+    font-size: x-large;
+   
+}
+#box2 p{
+    margin: 40px;
+   font-size: large;
+}
+#box2 u{
+    margin-left: 40px;
+}
+#box2 img{
+    height: 40%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#box3{
+    height: 60%;
+    width: 20%;
+    background-color: rgb(250, 250, 250);
+    margin-left: 35px;
+    border-radius: 20px;
+    border-style:groove;
+    overflow: hidden;
+}
+
+#box3 b{
+    margin-left: 70px;
+    font-size: x-large;
+   
+}
+#box3 p{
+    margin: 40px;
+   font-size: large;
+}
+#box3 u{
+    margin-left: 40px;
+}
+#box3 img{
+    height: 40%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#box4{
+    height: 60%;
+    width: 20%;
+    background-color:white;
+    margin-left: 35px;
+    border-radius: 20px;
+    border-style:groove;
+    overflow: hidden;
+}
+#box4 b{
+    margin-left: 70px;
+    font-size: x-large;
+   
+}
+#box4 p{
+    margin: 40px;
+   font-size: large;
+}
+#box4 u{
+    margin-left: 40px;
+}
+#box4 img{
+    height: 40%;
+    width: 100%;
+    object-fit: cover;
+}
+#strip p{
+    color: aliceblue;
+}
+#viewproduct h2{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+   border-style: solid;
+   color: rgb(59, 142, 232);
+    margin-left:40% ;
+    margin-right:40%;
+   margin-bottom: 40%;
+}
+#viewproduct h2:hover{
+    background-color: rgb(212, 235, 246);
+}
+#viewproduct{
+    background-color: rgb(164, 226, 239);
+}
